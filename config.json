@@ -1,0 +1,15 @@
+{
+  "gdax": {
+    "url": "https://api.gdax.com",
+    "key": "{gdax_key}",
+    "b64secret": "{gdax_base64_secret}",
+    "passphrase": "{gdax_passphrase}"
+  },
+  "mail": {
+    "enabled": true,
+    "from": "Gdax <gdax-alerts@yourdomain.com>",
+    "to": "me@yourdomain.com",
+    "apikey": "{mailgun_private_key}",
+    "domain": "{sandbox_blahblah.mailgun.org}"
+  }
+}
