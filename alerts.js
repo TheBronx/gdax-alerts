@@ -36,8 +36,8 @@ function alertNewFills(fills) {
   var phrases = _.map(fills, function(fill) {
     var operation = fill.side === 'sell' ? 'sold' : 'bought';
     var products = fill.product_id.split('-');
-    return 'You just ' + operation + ' <strong>' + fill.size.replace(/000+$/, '00') + '</strong>' + products[0] +
-            ' at <strong>' + fill.price.replace(/000+$/, '00') + '</strong>' + products[1];
+    return 'You just ' + operation + ' <strong>' + fill.size.replace(/000+$/, '00') + '</strong> ' + products[0] +
+            ' at <strong>' + fill.price.replace(/000+$/, '00') + '</strong> ' + products[1];
   });
 
   console.log(phrases);
