@@ -7,6 +7,9 @@ The email contains the size and price of the transaction.
 Just edit the `config.json` file with your GDAX API credentials and also your Mailgun API key and domain. A free account is enough,
 in fact you can use the sandbox environment of Mailgun if you just add your email to the *Authorized Recipients* list.
 
+You can enter as many `clients` as you want. The example config contains two clients (Vitalik Buterin and Satoshi Nakamoto), you can leave
+just one if you don't have more gdax accounts.
+
 Once configured, run the script:  
 `node alerts.js`
 
