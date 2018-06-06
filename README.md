@@ -1,20 +1,9 @@
-# gdax-alerts
-
-## Configure and run
-A simple script to send you an email whenever a pending order is complete.  
-The email contains the size and price of the transaction.
-
-Just edit the `config.json` file with your GDAX API credentials and also your Mailgun API key and domain. A free account is enough,
-in fact you can use the sandbox environment of Mailgun if you just add your email to the *Authorized Recipients* list.
-
-You can enter as many `clients` as you want. The example config contains two clients (Vitalik Buterin and Satoshi Nakamoto), you can leave
-just one if you don't have more gdax accounts.
-
-Once configured, run the script:  
-`node alerts.js`
-
-Or place the script in a CRON task and the first email will be sent with all your completed transactions. From now on, only new
-operations will be notified. Enjoy!
-
-## Contributing
-PR are welcome.
+# This repo is now on GitLab
+Since this site is now owned by Microsoft I have moved this repo to GitLab: https://gitlab.com/salvatorelab/gdax-alerts  
+## Why am I moving to GitLab
+For me this is not about publishing the code and giving it a license. Free Software is more than that.  
+When I share code, I do it so that others can read it, understand how it works, modify it, use it, check if there is anything wrong or malicious about it and trust the code (or not!) instead of me or a company.  
+Sharing code (either under an Open Source or a Free Software License) is a **philosophy**.  
+I believe GitHub is no longer a good place to do this because Microsoft is not aligned with these principles. I know they have recently open sourced projects like Visual Studio Code and a few others, and seem to be going in that direction. However I also know they do fight Open Source and Free Software initiatives like what happened in Munich after they moved to Linux.  
+I believe Microsoft is still way too far from Open Source, and even farther from Free Software. This is why I am not going to be part of the new GitHub era. I will reconsider it in the future.  
+Sorry for the inconvenience, I hope that you understand.  
